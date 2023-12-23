@@ -49,13 +49,13 @@ const Home = () => {
                 <div className="box">
                     <div className="wrapper">
                         <span className="text">+</span>
-                        <p className="prompt">Click or drag and drop files here to upload</p>
+                        <p className="prompt">Click or drag and drop files to upload</p>
                         <input id="file-upload" type={"file"} multiple={"multiple"} accept={"image/png, image/jpeg"} onChange={handleFile}/>
                     </div>
                 </div>
                 <Carousel files={files}/>
                 <div className="button_container">
-                    <button className="action clear_queue" onClick={clearQueue}>Clear queue</button>
+                    <button className="action clear_queue" onClick={clearQueue}>Clear All</button>
                     <button className="action download" onClick={download}>Download [PDF]</button>
                 </div>
                 <Info/>

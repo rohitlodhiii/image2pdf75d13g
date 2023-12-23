@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div className='navbar'>
-        <span className='header'>image2pdf</span>
-        <a href="https://github.com/anshuthopsee/image2pdf">GitHub repo</a>
+        <span className='header'>Img2PDF</span>
+        <a href="https://github.com/rohitlodhiii/image2pdf75d13g">GitHub</a>
       </div>
       <GeneralContextProvider>
         <Home/>
